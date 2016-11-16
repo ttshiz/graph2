@@ -14,6 +14,7 @@ void keyboard( unsigned char key, int x, int y );
 void quad( int a, int b, int c, int d );
 void colorcube(void);
 void drawCube(void);
+void readFile(char*);
 
 typedef Angel::vec4  color4;
 typedef Angel::vec4  point4;
@@ -195,6 +196,9 @@ void keyboard( unsigned char key, int x, int y )
     }
 }
 
+void readFile(char* filename) {
+
+}
 //----------------------------------------------------------------------------
 // entry point
 int main( int argc, char **argv )
